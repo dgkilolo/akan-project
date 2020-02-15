@@ -15,18 +15,18 @@ function akan() {
     
   if (name === 0 && woman.checked){
     alert("You were born on " + days[0] + "," + " and your Akan name is " + female[0] + ".")
-  } else if(name === 3 && woman.checked){
-    alert("You were born on " + days[0] + "," + " and your Akan name is " + female[0] + ".")
   } else if(name === 1 && woman.checked){
-    alert("You were born on " + days[0] + "," + " and your Akan name is " + female[0] + ".")
-  } else if (name === 0 && woman.checked){
-    alert("You were born on " + days[0] + "," + " and your Akan name is " + female[0] + ".")
-  } else if (name === 5 && woman.checked){
-    alert("You were born on " + days[0] + "," + " and your Akan name is " + female[0] + ".")
-  } else if (name === 2 && woman.checked) {
-    alert("You were born on " + days[0] + "," + " and your Akan name is " + female[0] + ".")
+    alert("You were born on " + days[1] + "," + " and your Akan name is " + female[1] + ".")
+  } else if(name === 2 && woman.checked){
+    alert("You were born on " + days[2] + "," + " and your Akan name is " + female[2] + ".")
+  } else if (name === 3 && woman.checked){
+    alert("You were born on " + days[3] + "," + " and your Akan name is " + female[3] + ".")
+  } else if (name === 4 && woman.checked){
+    alert("You were born on " + days[4] + "," + " and your Akan name is " + female[4] + ".")
+  } else if (name === 5 && woman.checked) {
+    alert("You were born on " + days[5] + "," + " and your Akan name is " + female[5] + ".")
   } else if (name === 6 && woman.checked){
-    alert("You were born on " + days[0] + "," + " and your Akan name is " + female[0] + ".")
+    alert("You were born on " + days[6] + "," + " and your Akan name is " + female[6] + ".")
   }
   
   if (name === 0 && man.checked){
