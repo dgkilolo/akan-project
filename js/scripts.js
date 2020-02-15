@@ -4,7 +4,6 @@ function akan() {
   const female = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
   const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday",]
   
-    
   var DD = parseInt(document.getElementById("date").value)
   var MM = parseInt(document.getElementById("month").value)
   var YY = parseInt(document.getElementById("year").value)
@@ -13,9 +12,7 @@ function akan() {
   var woman = document.getElementById("femaleb")
   
   var name = new Date(MM + '/' + DD + '/'+ YY).getDay()
-  
-  //alert(name)
-  
+    
   if (name === 0 && woman.checked){
     alert("You were born on " + days[0] + "," + " and your Akan name is " + female[0] + ".")
   } else if(name === 3 && woman.checked){
