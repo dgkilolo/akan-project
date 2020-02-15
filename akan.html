@@ -11,10 +11,20 @@
     
     <form>
       <div class="form-group">
-        <label for="date">Enter Birthday:</label>
-        <input type="date" class="form-control" id="date" aria-describedby="date">
+        <label for="date">Enter Date:</label>
+        <input type="number" class="form-control" id="date" aria-describedby="date">
       </div>
       
+      <div class="form-group">
+        <label for="date">Enter Month:</label>
+        <input type="number" class="form-control" id="month" aria-describedby="date">
+      </div>
+
+      <div class="form-group">
+        <label for="date">Enter Year:</label>
+        <input type="number" class="form-control" id="year" aria-describedby="date">
+      </div>
+
       <div class="form-group form-check">
         <input type="radio" id="male-checkbox" name="gender">
         <label>Male</label>
@@ -25,7 +35,7 @@
         <label>Female</label>
       </div>
 
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button onclick="akan()" type="submit" class="btn btn-primary">Submit</button>
     </form>
 
   </body>
