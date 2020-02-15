@@ -1,8 +1,8 @@
 function akan() {
 
-  var male = ["Kwasi","Kwadwo", "Kwabena", "Kwaku","Yaw", "Kofi","Kwame"]
-  var female = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
-  var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday",]
+  const male = ["Kwasi","Kwadwo", "Kwabena", "Kwaku","Yaw", "Kofi","Kwame"]
+  const female = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
+  const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday",]
   
     
   var DD = parseInt(document.getElementById("date").value)
@@ -48,6 +48,6 @@ function akan() {
     alert("You were born on " + days[6] + "," + " and your Akan name is " + male[6] + ".")
   }
   
-  }
+}
   
   
