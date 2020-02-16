@@ -33,3 +33,7 @@ h1{
 .btn{
   float: right;
 }
+.intro{
+  font-size: 20px;
+  padding: 5px;
+}
