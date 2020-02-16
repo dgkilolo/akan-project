@@ -44,7 +44,14 @@ function akan() {
   } else if (name === 6 && man.checked){
     alert("You were born on " + days[6] + "," + " and your Akan name is " + male[6] + ".")
   }
-  
+ 
+  if (DD<0 || DD>31) {
+    alert("Enter a valid date.")
+  }
+  if (MM<0 || MM>12) {
+    alert("Enter a valid month.")
+  }
+
 }
   
   
