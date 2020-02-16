@@ -37,3 +37,9 @@ h1{
   font-size: 20px;
   padding: 5px;
 }
+.card{
+  background-image: url(../images/checklist.jpg);
+  background-position-y: 1800px;
+  background-position-x: px;
+  
+}
