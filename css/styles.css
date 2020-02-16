@@ -1,5 +1,6 @@
 .jumbotron{
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 .radio{
   text-align: center;
@@ -29,6 +30,7 @@ h1{
   height: 200px;
   background-image: url(../images/ghana.jpg);
   background-position-y: 0px;
+  font-family: cursive;
 }
 .btn{
   float: right;
@@ -46,4 +48,8 @@ h1{
 .form-group{
   font-weight: 700;
   font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.radio{
+  font-size: 22px;
 }
